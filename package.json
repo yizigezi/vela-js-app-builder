@@ -1,7 +1,7 @@
 {
-  "name": "writerside-github-action",
-  "version": "1.0.0",
-  "description": "[![JetBrains team project](https://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+  "name": "vela-js-app-builder",
+  "version": "0.0.1",
+  "description": "A build action for Vela JS app",
   "main": "index.js",
   "scripts": {
     "build": "ncc build index.js --license licenses.txt"

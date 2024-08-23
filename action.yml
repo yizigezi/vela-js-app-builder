@@ -1,25 +1,6 @@
-name: Build Writerside docs using Docker
-description: Build Writerside documentation artifacts
-author: writerside <writerside@jetbrains.com>
-branding:
-    icon: book-open
-    color: purple
-
-inputs:
-    docker-version:
-        description: 'Writerside docker image version'
-        required: false
-    location:
-        description: 'Writerside documentation module location'
-        default: ''
-        required: false
-    instance:
-        description: "Module name and instance ID"
-        required: true
-    artifact:
-        description: "Archive to store as artifact"
-        required: true
-
+name: Build Vela JS Apps
+description: Build Vela JS Apps
+author: 2minRain<yizigezi@outlook.com>
 runs:
     using: 'node20'
     main: 'dist/index.js'
