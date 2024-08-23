@@ -1,7 +1,9 @@
 name: Build Vela JS Apps
 description: Build Vela JS Apps
 author: 2minRain<yizigezi@outlook.com>
-icon: 'box'
+branding:
+    icon: book-open
+    color: purple
 runs:
     using: 'node20'
     main: 'dist/index.js'
