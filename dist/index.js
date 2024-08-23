@@ -28081,6 +28081,10 @@ async function run() {
 
         // Run your Docker container
         await exec.exec('docker', [
+            'pull',
+            '2minrain/devela:v2'
+        ]);
+        await exec.exec('docker', [
             'run',
             '--rm',
             '-v',
