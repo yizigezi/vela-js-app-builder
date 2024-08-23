@@ -7,6 +7,7 @@ async function run() {
 
         const commands = `
             cd /github/workspace
+            source /root/.bashrc
             nvm use 20
             npm i
             npm run build
